@@ -1,0 +1,33 @@
+body {
+  font-family: "red hat text";
+  text-align: center;
+}
+h1 {
+  color: #40a2c6;
+}
+.input {
+  width: 300px;
+  height: 25px;
+  color: #3c97ff;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  direction: rtl;
+  padding: 3px;
+  border: 2px solid #40a2c6;
+}
+
+.button {
+  text-align: center;
+  padding: 7px;
+  color: #000000;
+  background-color: #4ea6d8;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.list :hover {
+  color: #b3b2b2;
+}
