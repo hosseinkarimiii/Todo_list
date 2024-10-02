@@ -1,11 +1,12 @@
 body {
-  font-family: "red hat text";
+  font-family: "vazir";
   text-align: center;
+  background-color: #fff8e1;
 }
 h1 {
-  color: #40a2c6;
+  color: #3989a5;
 }
-.input {
+#input {
   width: 300px;
   height: 25px;
   color: #3c97ff;
@@ -14,20 +15,36 @@ h1 {
   background-color: #ffffff;
   border-radius: 5px;
   direction: rtl;
-  padding: 3px;
+  padding: 4px;
   border: 2px solid #40a2c6;
 }
 
 .button {
-  text-align: center;
-  padding: 7px;
-  color: #000000;
-  background-color: #4ea6d8;
+  background-color: #3c97ff;
+  color: white;
   border: none;
-  border-radius: 2px;
+  padding: 10px 20px;
   cursor: pointer;
-  font-size: 16px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: large;
 }
-.list :hover {
-  color: #b3b2b2;
+ul {
+  list-style-type: none;
+  padding: 0px;
+  color: #000000;
+
+  margin-top: 40px;
+}
+
+li {
+  background-color: #f3d5ad;
+  padding: 10px;
+  margin-left: 341px;
+  margin-right: 222px;
+  border: 1px solid #ddd;
+  text-align: right;
+  direction: rtl;
+  display: flex;
+  gap: 15px;
 }
