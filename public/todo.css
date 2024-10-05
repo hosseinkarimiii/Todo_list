@@ -60,10 +60,14 @@ ul.list li {
   align-items: center;
   color: #3c97ff;
 }
-
+button {
+  color: #3c97ff;
+  border: none;
+  padding: 2px;
+  border-radius: 3px;
+}
 button:hover {
   background-color: #f3d5ad;
-  color: #915d1a;
 }
 
 li.completed {
